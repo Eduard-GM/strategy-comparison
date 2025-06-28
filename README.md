@@ -40,7 +40,7 @@ To test a different asset, just change the `ticker` variable at the top of `00_r
 
 For MSFT, all strategies held up decently over the 2020–2024 period.  
 The basic EMA (10/50) captured most of the trend and performed well overall.  
-The triple EMA (10/50/200) added some smoothing — it filtered out noise but entered trades later.  
+The triple EMA (10/50/200) added some smoothing, it filtered out noise but entered trades later.  
 ATR-based stop-losses helped with drawdowns but often kicked out of trades too early, especially in normal pullbacks.  
 
 In the end, plain EMA or triple EMA without SL gave the best results, depending on how much risk you're willing to accept.
@@ -85,7 +85,7 @@ Mixed performance. Basic EMA captured some moves, but frequent whipsaws hurt all
 
 The experiments show that no single strategy consistently outperforms across assets:
 
-In strong uptrends like BTC, MSFT or SPY, simple EMA crossovers outperformed — just staying in the market paid off.  
+In strong uptrends like BTC, MSFT or SPY, simple EMA crossovers outperformed, just staying in the market paid off.  
 In choppier assets like EURUSD or GOLD, the stop-loss versions helped reduce damage, but also missed rebounds.
 
 Triple EMA helped smooth entries/exits, but sometimes reacted too slowly.  
