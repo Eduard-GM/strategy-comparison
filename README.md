@@ -13,8 +13,8 @@ A quick comparison of basic trend-following strategies using moving averages and
 
 ## Test
 
-Default: `MSFT` (2020–2024)
-Easily switch to `BTC-USD`, `EURUSD=X`, etc.
+- Default: `MSFT` (2020–2024)
+- Easily switch to `BTC-USD`, `EURUSD=X`, etc.
 
 ## How to Use
 
