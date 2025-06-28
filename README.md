@@ -16,17 +16,17 @@ A quick comparison of basic trend-following strategies using moving averages and
 - Default: `MSFT` (2020–2024)
 - Easily switch to `BTC-USD`, `EURUSD=X`, etc.
 
-## How to Use
-
-Run any notebook in Jupyter. Each one downloads its own data via `yfinance`, performs the backtest, and saves results automatically.
-
-To test a different asset, just change the `ticker` variable at the top of `00_run_all_strategies.ipynb`.
-
 ## Project Layout
 
 - `Strategies/` – Strategy notebooks
 - `Outputs/` – Exported results
 - `Images/` – Plots
+
+## How to Use
+
+Run any notebook in Jupyter. Each one downloads its own data via `yfinance`, performs the backtest, and saves results automatically.
+
+To test a different asset, just change the `ticker` variable at the top of `00_run_all_strategies.ipynb`.
 
 
 ## Comparisons and Results by Asset
