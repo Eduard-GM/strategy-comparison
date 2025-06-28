@@ -27,7 +27,6 @@ To test a different asset, just change the `ticker` variable at the top of `00_r
 - `Outputs/` – Exported results
 - `Images/` – Plots
 
----
 
 ## Comparisons and Results by Asset
 
@@ -55,11 +54,13 @@ The following assets show **bar chart comparisons** across strategies (Sharpe, v
 Basic EMA crossover (no SL) outperformed others, as it stayed in during long uptrends. SL-based strategies exited prematurely in high volatility.
 
 
+
 ### EUR/USD (2020–2024)
 
 ![EURUSD Strategy Comparison](Images/EURUSD=X_strategy_comparison_metrics.png)
 
 All strategies underperformed. Range-bound behavior and volatility made it difficult for trend-following to work. SL helped reduce drawdowns.
+
 
 
 ### SPY (2020–2024)
@@ -69,13 +70,14 @@ All strategies underperformed. Range-bound behavior and volatility made it diffi
 Strong bullish behavior allowed most strategies to do well. Triple EMA with SL balanced drawdown and Sharpe ratio. Buy & Hold had highest return but higher volatility.
 
 
+
 ### GOLD (2020–2024)
 
 ![GOLD Strategy Comparison](Images/GLD_strategy_comparison_metrics.png)
 
 Mixed performance. Basic EMA captured some moves, but frequent whipsaws hurt all strategies. SL strategies limited risk but often exited sideways chop.
 
----
+
 
 ## Conclusion
 
