@@ -19,6 +19,7 @@ A quick comparison of basic trend-following strategies using moving averages and
 ## How to Use
 
 Run any notebook in Jupyter. Each one downloads its own data via `yfinance`, performs the backtest, and saves results automatically.
+
 To test a different asset, just change the `ticker` variable at the top of `00_run_all_strategies.ipynb`.
 
 ## Project Layout
@@ -41,6 +42,7 @@ For MSFT, all strategies held up decently over the 2020–2024 period.
 The basic EMA (10/50) captured most of the trend and performed well overall.  
 The triple EMA (10/50/200) added some smoothing — it filtered out noise but entered trades later.  
 ATR-based stop-losses helped with drawdowns but often kicked out of trades too early, especially in normal pullbacks.  
+
 In the end, plain EMA or triple EMA without SL gave the best results, depending on how much risk you're willing to accept.
 
 ---
